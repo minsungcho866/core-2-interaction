@@ -1,49 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Button</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <!-- 
         1. The story begins on the day that I got my first phone. 
         The phone did not have many functions. I was able to call, 
         play some simple games, and message. However, There was one 
         more button in the phone. I had a diamond shaped button that 
-        was big and placed in the middle. 
+        was big and placed in the middle. (text only)
 
         2. I was so curious about the button and asked my mom what 
         that button was. My mom said “You have to pay a thousand 
         dollars if you press that button.” As a kid, that was a very 
         large amount of money and I was so scared of myself 
-        accidentally pressing the button. 
+        accidentally pressing the button. (Money.mp4)
 
         3. However, I still had a curiosity about the function of 
         that button. One day, when I was alone at home, I came out 
         with a plan to press that button. The plan was to press the 
         button and then take out the battery of the phone so that 
         no one can see it. It was a stupid plan but back then that 
-        was the best I could think of. 
+        was the best I could think of. (Mission_Impossible.mp3)
 
         4. I turned on my phone and took a deep breath. Then I 
         quickly pressed the button and right after I saw what was 
-        on the screen, I took the battery out on the phone. 
+        on the screen, I took the battery out on the phone. (shocked.jpeg)
 
         5. The button was to access the internet and this was the 
-        first time I experienced the internet. 
+        first time I experienced the internet. (internet.pdf)
      -->
-     <header class="mainheader">
+    <header class="mainheader">
         <h1>
             The Button
         </h1>
         <p>
             By Minsung Cho
         </p>
-     </header>
-     <main>
-        <section class="part">
+    </header>
+    <nav class="Nav">
+        <ul class="Nav-list">
+            <li class="Nav-item">
+                <a href="#">
+                    Top
+                </a>
+                <!-- <span>
+                    element
+                </span> -->
+            </li>
+            <li class="Nav-item">
+                <a href="#partOne">
+                    Part One 
+                </a>
+            </li>
+            <li class="Nav-item">
+                <a href="#partTwo">
+                    Part Two
+                </a>
+            </li>
+            <li class="Nav-item">
+                <a href="#partThree">
+                    Part Three
+                </a>
+            </li>
+            <li class="Nav-item">
+                <a href="#partFour">
+                    Part Four
+                </a>
+            </li>
+            <li class="Nav-item">
+                <a href="#partFive">
+                    Part Five
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="part" id="partOne">
             <header>
                 <h2>
                     1
@@ -51,11 +90,13 @@
             </header>
             <section>
                 <p>
-                    The story begins on the day that I got my first phone. The phone did not have many functions. I was able to call, play some simple games, and message. However, There was one more button in the phone. I had a diamond shaped button that was big and placed in the middle. 
+                    The story begins on the day that I got my first phone. The phone did not have many functions. I was
+                    able to call, play some simple games, and message. However, There was one more button in the phone.
+                    I had a diamond shaped button that was big and placed in the middle.
                 </p>
             </section>
         </section>
-        <section class="part">
+        <section class="part" id="partTwo">
             <header>
                 <h2>
                     2
@@ -63,11 +104,14 @@
             </header>
             <section>
                 <p>
-                    I was so curious about the button and asked my mom what that button was. My mom said “You have to pay a thousand dollars if you press that button.” As a kid, that was a very large amount of money and I was so scared of myself accidentally pressing the button. 
+                    I was so curious about the button and asked my mom what that button was. My mom said “You have to
+                    pay a thousand dollars if you press that button.” As a kid, that was a very large amount of money
+                    and I was so scared of myself accidentally pressing the button.
                 </p>
+                <video src="media/money.mp4" autoplay muted loop></video>
             </section>
         </section>
-        <section class="part">
+        <section class="part" id="partThree">
             <header>
                 <h2>
                     3
@@ -75,11 +119,15 @@
             </header>
             <section>
                 <p>
-                    However, I still had a curiosity about the function of that button. One day, when I was alone at home, I came out with a plan to press that button. The plan was to press the button and then take out the battery of the phone so that no one can see it. It was a stupid plan but back then that was the best I could think of.  
+                    However, I still had a curiosity about the function of that button. One day, when I was alone at
+                    home, I came out with a plan to press that button. The plan was to press the button and then take
+                    out the battery of the phone so that no one can see it. It was a stupid plan but back then that was
+                    the best I could think of.
                 </p>
+                <audio src="media/Mission_Impossible.mp3" controls></audio>
             </section>
         </section>
-        <section class="part">
+        <section class="part" id="partFour">
             <header>
                 <h2>
                     4
@@ -87,12 +135,14 @@
             </header>
             <section>
                 <p>
-                    I turned on my phone and took a deep breath. Then I 
-                    quickly pressed the button and right after I saw what was on the screen, I took the battery out on the phone. 
+                    I turned on my phone and took a deep breath. Then I
+                    quickly pressed the button and right after I saw what was on the screen, I took the battery out on
+                    the phone.
                 </p>
+                <img src="./media/shocked.jpeg" alt="">
             </section>
         </section>
-        <section class="part">
+        <section class="part" id="partFive">
             <header>
                 <h2>
                     5
@@ -100,10 +150,12 @@
             </header>
             <section>
                 <p>
-                    The button was to access the internet and this was the first time I experienced the internet. 
+                    The button was to access the internet and this was the first time I experienced the internet.
                 </p>
+                <object data="media/internet.pdf" type=""></object>
             </section>
         </section>
-     </main>
+    </main>
 </body>
+
 </html>

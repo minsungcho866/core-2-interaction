@@ -1,9 +1,71 @@
+/*General Styles*/
 html {
-    background-color: orangered;
-    color: orange;
+    background-color: rgb(179, 151, 239);
+    color: rgb(240, 232, 86);
+}
+h1, h2, p {
+    margin: 0;
 }
 
+body{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Main Header */
 .mainheader {
     text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+/* Media Elements */
+img, video, audio, object {
+    width: 100%;
+    margin-top: 10px;
+}
+object {
+    aspect-ratio: 4/3;
+}
+
+/* Part */
+.part {
+    background-color: rgb(140, 100, 156);
+    padding: 10px;
+    border: 1px solid black;
+    margin: 50px 0px 50px 0px;
+}
+
+#partOne{
+    background-color: rgb(188, 241, 243);
+    color: rgb(61, 63, 7);
+}
+
+#partFive{
+    background-color: rgb(141, 115, 82);
+    color: antiquewhite;
+}
+
+/* Nav */
+.Nav {
+position: fixed;
+bottom: 10px;
+Right: 10px;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+}
+.Nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav-item {
+    display: inline-block;
+    background: rgb(189, 104, 201);
+    padding: 5px;
 }
 
