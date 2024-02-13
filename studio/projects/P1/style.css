@@ -1,0 +1,99 @@
+@media (min-width: 801px) {
+Body {
+    background-color:blanchedalmond
+}
+    
+h1 {
+    font-size: 220px;
+    text-align: center;
+
+    font-family: "alta-california", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-transform: lowercase;
+    margin: 0;
+    text-decoration: none;
+
+    text-decoration: none;
+    position: relative;
+    top: 150px;
+}
+
+.fire {
+    font-size: 200px;
+    text-align: center;
+
+    font-family: "alta-california", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    filter: blur(3.5px);
+
+    text-transform: lowercase;
+    margin: 0;
+
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fire a {
+    text-decoration: none;
+    color: rgb(152, 31, 31);
+}
+
+.fire:hover {
+    letter-spacing: 10px;
+    filter: blur(0px);
+    rotate: 15deg;
+}
+}
+
+@media (max-width: 800px) {
+    Body {
+        background-color:rgb(31, 31, 31)
+    }
+    
+    h1 {
+        color: rgb(227, 227, 227);
+        font-size: 180px;
+        text-align: center;
+    
+        font-family: "alta-california", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+        text-transform: lowercase;
+        margin: 0;
+        text-decoration: none;
+    
+        text-decoration: none;
+        position: relative;
+        top: 80px;
+    }
+    
+    .fire {
+        font-size: 200px;
+        text-align: center;
+    
+        font-family: "alta-california", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        filter: blur(3.5px);
+    
+        text-transform: lowercase;
+        margin: 0;
+    
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .fire a {
+        text-decoration: none;
+        color: rgb(152, 31, 31);
+    }
+    
+    .fire:hover {
+        letter-spacing: 10px;
+        filter: blur(0px);
+    }
+    }
