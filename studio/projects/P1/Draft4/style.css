@@ -1,0 +1,24 @@
+html{
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 200px;
+    position: relative;
+    top: 120px;
+}
+
+.button {
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+
+    font-family: "altivo", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.button:hover {
+    transform: translateY(-4px);
+}
+
