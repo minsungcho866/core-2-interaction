@@ -32,13 +32,13 @@ body {
 }
 
 .Nav-link {
-    color: #fff;
+    color: #961fd2;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .Nav-link:hover {
-    color: #4c064a;
+    color: #2b0429;
 }
 
 .Page {
