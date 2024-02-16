@@ -1,0 +1,33 @@
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.text-color {
+    color: red;
+}
+
+.text-color:hover {
+    color: red;
+    opacity: 20%;
+}
+
+.next {
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+
+    font-family: "altivo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    position: relative;
+    top: 400px;
+    left: 700px;
+}
+
+.next:hover {
+    transform: translateY(-4px);
+}
