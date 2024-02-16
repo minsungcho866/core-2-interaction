@@ -1,3 +1,95 @@
-html {
-    color: purple;
+html, body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.Header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-title h1 {
+    margin: 0;
+}
+
+.Nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Nav-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.Nav-link:hover {
+    color: #ffd700;
+}
+
+.Page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Page-header {
+    margin-bottom: 20px;
+}
+
+.Meta-tag {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.Post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Fieldset {
+    margin-top: 20px;
+}
+
+.Fieldset-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.StudentNav {
+    margin-top: 10px;
+}
+
+.StudentNav a {
+    display: inline-block;
+    margin-right: 10px;
 }
