@@ -1,28 +1,24 @@
-body{
-    background-color: antiquewhite;
+body {
+	background-color: antiquewhite;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
 
-.scroll-box {
-    background: #f4f4f4;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    height: 350px; 
-    width: 350px;
-    padding: 15px;
-    overflow-y: scroll;
-    position: relative;
-    left: 100px;
-    top: 100px;
+p {
+    margin-bottom: 20px;
 }
 
-.scroll-box-second {
-    background: #f4f4f4;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    height: 350px; 
-    width: 350px;
-    padding: 15px;
-    overflow-y: scroll;
-    position: relative;
-    left: 1000px;
-    bottom: 50px;
+.text-color {
+    color: red;
 }
 
+.text-size {
+    font-size: 30px;
+}
