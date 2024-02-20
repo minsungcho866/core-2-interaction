@@ -7,13 +7,25 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1 id="mainText">
-        I ask you to please wake up and make the change required possible.<br>
-        To do your best is no longer good enough.<br> 
-        We must all do the seemingly impossible.<br>
-    </h1>
+    <div class="container">
+        <div class="text-container">
+            <h1 id="text1" class="typing-animation">
+                I ask you to please wake up and make the change required possible.
+            </h1>
+            <h1 id="text2" class="hidden typing-animation">
+                To do your best is no longer good enough.
+            </h1>
+            <h1 id="text3" class="hidden typing-animation">
+                We must all do the seemingly impossible.
+            </h1>
+        </div>
+    </div>
 
-    <a href="../page13/index.html"><button class="next"><span>next</span></button></a>
+    <div class="button-container">
+        <button id="toggleButton" class="button1">I Am doing my best.</button>
+        <button id="toggleButton2" class="button2 hidden">Then what should I do?</button>
+        <a href="../page13/index.html"><button id="toggleButton3" class="button3 hidden">next</button></a>
+    </div>
 
     <script src="main.js"></script>
 </body>
