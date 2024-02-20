@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    line-height: 60px;
+}
+
+.text {
+    color: rgb(241, 133, 133);
+}
+
+.textone{
+    font-size: 50px;
+    color: rgb(250, 142, 142);
+}
+
+.texttwo{
+    font-size: 60px;
+    color: rgb(253, 86, 86);
+}
+
+.textthree{
+    font-size: 120px;
+    color: red;
+}
+
+.next {
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+  }
+
+  .next:hover {
+    transform: translateY(-5px);
+  }
