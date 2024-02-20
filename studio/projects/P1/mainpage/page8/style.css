@@ -1,0 +1,32 @@
+h1 {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.next {
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+}
+    
+.next:hover {
+    transform: translateY(-5px);
+}
+
+.color {
+    color: black;
+}
+
+.button {
+    position: fixed;
+    top: 400px;
+    right: 350px;
+    font-size: 40px;
+}
+
+.two {
+    position: fixed;
+    top: 400px;
+    right: 230px;
+    font-size: 40px;
+}

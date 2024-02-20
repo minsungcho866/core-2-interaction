@@ -1,3 +1,13 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -8,15 +18,17 @@
 }
 
 .button {
-    width: 200px;
-    height: 40px; 
-    background-color: #ff0404;
+    width: 1000px;
+    height: 55px; 
+    background: linear-gradient(-45deg, #f4977b, #f34444, #fd9444, #fb8853);
+	animation: gradient 15s ease infinite;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s;
-    margin: 10px; 
+    margin: 10px;
+    font-size: 15px;
 }
 
 .button:hover {
@@ -30,4 +42,15 @@
 
 .button:hover span {
     transform: translateX(5px);
+}
+
+.next {
+    font-size: 40px;
+    border: none;
+    background: transparent;
+}
+
+.next:hover {
+    transform: translateY(-5px);
+    color: rgb(119, 33, 33);
 }

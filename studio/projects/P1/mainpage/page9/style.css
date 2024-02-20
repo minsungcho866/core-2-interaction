@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+
+H1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.text {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  
+  @keyframes fallAndFade {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(50px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+  }
+  
+  .fade-out {
+    animation: fallAndFade 1s forwards;
+  }
+  
+  .fade-out-hide {
+    display: none;
+  }
+
+  .next {
+    margin-top: 300px;
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+  }
+
+  .next:hover {
+    transform: translateY(-5px);
+  }
