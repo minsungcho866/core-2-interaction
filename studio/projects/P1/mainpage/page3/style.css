@@ -1,21 +1,10 @@
 body {
-	background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
-	background-size: 400% 400%;
+    background-color: rgb(243, 189, 162);	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
   
 .container {
     max-width: 800px;
@@ -28,6 +17,9 @@ body {
 
 p {
     margin-bottom: 20px;
+    font-family: "arek", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .text-color {
@@ -54,4 +46,56 @@ p {
 
 .next:hover {
     transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(243, 189, 162);	background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    
+      
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+    
+    p {
+        margin-bottom: 20px;
+        font-family: "arek", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .text-color {
+        color: red;
+    }
+    
+    .text-size {
+        font-size: 30px;
+    }
+    
+    .next {
+        font-size: 20px;
+        border: none;
+        background-color: transparent;
+    
+        font-family: "altivo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .next:hover {
+        transform: translateY(-4px);
+    }
 }

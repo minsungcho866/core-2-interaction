@@ -26,6 +26,10 @@ h1 {
     padding-top: 300px;
     padding-bottom: 300px;
     text-align: center;
+
+    font-family: "arek", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .part {
@@ -34,10 +38,14 @@ h1 {
     opacity: 1;
   }
 
-.next {
-    font-size: 50px;
+  .next {
+    font-size: 40px;
     border: none;
     background-color: transparent;
+
+    font-family: "altivo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
     position: fixed;
     top: 10px;
@@ -45,5 +53,65 @@ h1 {
 }
 
 .next:hover {
-    transform: translateY(-5px);
+    transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px) {
+    .arrow {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 40px solid #000;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: bounce 1s infinite alternate ease-in-out;
+      }
+    
+      
+      @keyframes bounce {
+        0% {
+          transform: translateX(-50%) translateY(0);
+        }
+        100% {
+          transform: translateX(-50%) translateY(-10px); /* Adjust the vertical movement distance */
+        }
+      }
+      
+    h1 {
+        font-size: 20px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+        text-align: center;
+    
+        font-family: "arek", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .part {
+        margin: 50px;
+        padding: 50px;
+        opacity: 1;
+      }
+    
+      .next {
+        font-size: 20px;
+        border: none;
+        background-color: transparent;
+    
+        font-family: "altivo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .next:hover {
+        transform: translateY(-4px);
+    }
 }

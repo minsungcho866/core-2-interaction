@@ -30,6 +30,10 @@ body {
 	text-align: center;
 	
 	user-select: none;
+
+	font-family: "arek", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 #container {
@@ -59,4 +63,52 @@ body {
 
 .next:hover {
     transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px) {
+	#text1, #text2 {
+		position: absolute;
+		width: 100%;
+		display: inline-block;
+		
+		font-family: 'Raleway', sans-serif;
+		font-size: 40pt;
+		
+		text-align: center;
+		
+		user-select: none;
+	
+		font-family: "arek", serif;
+	font-weight: 200;
+	font-style: normal;
+	}
+	
+	#container {
+		position: absolute;
+		margin: auto;
+		width: 100vw;
+		height: 80pt;
+		top: 0;
+		bottom: 0;
+		
+		filter: url(#threshold) blur(0.6px);
+	}
+	
+	.next {
+		font-size: 20px;
+		border: none;
+		background-color: transparent;
+	
+		font-family: "altivo", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	
+		position: fixed;
+		top: 10px;
+		right: 10px;
+	}
+	
+	.next:hover {
+		transform: translateY(-4px);
+	}
 }

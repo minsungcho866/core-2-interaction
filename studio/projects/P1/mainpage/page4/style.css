@@ -17,7 +17,10 @@ body {
 	}
 }
 h1 {
-    font-size: 200px;
+    font-size: 100px;
+	font-family: "lulo-one", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 .next {
@@ -36,4 +39,31 @@ h1 {
 
 .next:hover {
     transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 35px;
+		font-family: "lulo-one", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	}
+	
+	.next {
+		font-size: 20px;
+		border: none;
+		background-color: transparent;
+	
+		font-family: "altivo", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	
+		position: fixed;
+		top: 10px;
+		right: 10px;
+	}
+	
+	.next:hover {
+		transform: translateY(-4px);
+	}
 }

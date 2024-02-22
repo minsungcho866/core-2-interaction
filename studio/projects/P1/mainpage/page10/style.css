@@ -17,20 +17,75 @@ body {
 	}
 }
 h1 {
-    font-size: 200px;
+    font-size: 160px;
     text-align: center;
+
+	font-family: "lulo-one", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 .next {
+    font-size: 40px;
     border: none;
     background-color: transparent;
-    font-size: 50px;
+
+    font-family: "altivo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
     position: fixed;
     top: 10px;
     right: 10px;
-  }
+}
 
-  .next:hover {
-    transform: translateY(-5px);
-  }
+.next:hover {
+    transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		height: 100vh;
+	}
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+	h1 {
+		font-size: 70px;
+		text-align: center;
+	
+		font-family: "lulo-one", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	}
+	
+	.next {
+		font-size: 20px;
+		border: none;
+		background-color: transparent;
+	
+		font-family: "altivo", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	
+		position: fixed;
+		top: 10px;
+		right: 10px;
+	}
+	
+	.next:hover {
+		transform: translateY(-4px);
+	}
+}

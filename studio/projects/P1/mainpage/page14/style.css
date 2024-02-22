@@ -18,5 +18,40 @@ body {
 }
 
 h1{
-    font-size: 200px;
+    font-size: 140px;
+
+
+	font-family: "lulo-one", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    h1{
+        font-size: 70px;
+    
+    
+        font-family: "lulo-one", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
 }

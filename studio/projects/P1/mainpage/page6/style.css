@@ -1,8 +1,8 @@
-body {
+Html {
 	background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
-	background-size: 400% 400%;
+	background-size: cover;
+    background-repeat: no-repeat;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
 }
 
 @keyframes gradient {
@@ -22,14 +22,19 @@ h1 {
     font-size: 160px;
     color: rgb(154, 2, 2);
     display: inline;
+    font-family: "lulo-one", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 .next {
-    background-color: transparent;
+    font-size: 40px;
     border: none;
-    font-size: 80px;
-    color: black;
-    margin-left: 800px;
+    background-color: transparent;
+
+    font-family: "altivo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
     position: fixed;
     top: 10px;
@@ -37,6 +42,54 @@ h1 {
 }
 
 .next:hover {
-    transform: translateY(-6px);
-    color: rgb(154, 2, 2);
+    transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 600px) {
+    Html {
+        background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        color: rgb(154, 2, 2);
+        display: inline;
+        font-family: "lulo-one", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+    
+    .next {
+        font-size: 20px;
+        border: none;
+        background-color: transparent;
+    
+        font-family: "altivo", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .next:hover {
+        transform: translateY(-4px);
+    }
 }
