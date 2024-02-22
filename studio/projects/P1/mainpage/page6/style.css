@@ -27,22 +27,52 @@ font-weight: 700;
 font-style: normal;
 }
 
+
 .next {
-    font-size: 40px;
-    border: none;
-    background-color: transparent;
+	border-radius: 4px;
+	background-color: transparent;
+	border: none;
+	color: #000000;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	position: fixed;
+	right: 10px;
+	top: 0px;
 
-    font-family: "altivo", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-
-    position: fixed;
-    top: 10px;
-    right: 10px;
+	font-family: "arek", serif;
+	font-weight: 400;
+	font-style: normal;
+	}
+		
+.next span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-
-.next:hover {
-    transform: translateY(-4px);
+		
+.next span:after {
+  content: '\276F';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+		
+.next:hover span {
+  padding-right: 25px;
+  color: rgb(228, 76, 59);
+}
+		
+.next:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 @media only screen and (max-width: 600px) {
