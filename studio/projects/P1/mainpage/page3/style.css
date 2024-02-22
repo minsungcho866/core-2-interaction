@@ -1,5 +1,20 @@
 body {
-	background-color: antiquewhite;
+	background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
   
 .container {
@@ -21,4 +36,22 @@ p {
 
 .text-size {
     font-size: 30px;
+}
+
+.next {
+    font-size: 40px;
+    border: none;
+    background-color: transparent;
+
+    font-family: "altivo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.next:hover {
+    transform: translateY(-4px);
 }

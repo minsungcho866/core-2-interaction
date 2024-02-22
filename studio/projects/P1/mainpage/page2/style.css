@@ -31,7 +31,9 @@ h1 {
     font-weight: 700;
     font-style: normal;
 
-	margin-left: 250px;
+	position: fixed;
+    top: 10px;
+    right: 10px;
 }
 
 .next:hover {

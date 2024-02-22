@@ -1,5 +1,20 @@
-body{
-    background-color: antiquewhite;
+body {
+	background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 H1 {
@@ -40,6 +55,8 @@ H1 {
     border: none;
     background-color: transparent;
     font-size: 50px;
+
+    
   }
 
   .next:hover {

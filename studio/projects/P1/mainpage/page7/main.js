@@ -2,7 +2,7 @@ window.addEventListener('scroll', () => {
     const verticalScrollPx = window.scrollY || window.pageYOffset;
   
     if (verticalScrollPx < 3000) {
-      document.body.style.backgroundColor = 'white';
+      document.body.style.backgroundColor = '#f4977b';
     } else if (verticalScrollPx > 3000 && verticalScrollPx < 5000) {
       document.body.style.backgroundColor = 'rgb(241, 120, 96)';
     } else {

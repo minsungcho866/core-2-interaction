@@ -1,5 +1,20 @@
 body {
-    background-color: rgb(237, 237, 237);
+	background: linear-gradient(-45deg, #f4977b, #f34444, #f4ae79, #fb8853);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 h1 {
@@ -15,6 +30,10 @@ h1 {
     font-size: 80px;
     color: black;
     margin-left: 800px;
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
 }
 
 .next:hover {
