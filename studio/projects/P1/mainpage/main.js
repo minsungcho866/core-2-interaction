@@ -4,7 +4,7 @@ const elts = {
 };
 
 const texts = [
-	"My Name is greta Tunberg",
+	"My Name is Greta Thunberg",
 	"and I am 16 years old",
 	"I come from Sweden and",
 	" I want you to panic.",
