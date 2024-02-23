@@ -121,8 +121,6 @@ button:hover{
         font-family: "arek", serif;
         font-weight: 400;
         font-style: normal;
-
-        word-wrap: break-word; 
     }
     
     .button-container {
