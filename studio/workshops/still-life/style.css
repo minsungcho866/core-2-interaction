@@ -23,58 +23,70 @@ body {
 .globe {
   width: 20vw;
   height: 20vw;
-  background-image: radial-gradient(circle at 70% 20%, white 0.2%, rgb(147, 146, 146));
+  background-image: radial-gradient(circle at 70% 20%, white 0.2%, rgb(147, 146, 146),rgb(42, 42, 42));
   border-radius: 50%;
 
   position: absolute;
   left: 20%;
   top: 55%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
 
 .orange1 {
     width: 8vw;
     height: 8vw;
-    background-image: radial-gradient(circle at 25% 40%, white 0.5%, rgb(216, 88, 3));
+    background-image: radial-gradient(circle at 25% 40%, white 0.5%, rgb(228, 126, 58),rgb(255, 102, 0));
     border-radius: 50%;
-
     position: absolute;
     left: 55%;
     top: 7%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
   }
 
   .orange2 {
     width: 8vw;
     height: 8vw;
-    background-image: radial-gradient(circle at 25% 40%, white 0.5%, rgb(216, 88, 3));
+    background-image: radial-gradient(circle at 25% 40%, white 0.5%, rgb(228, 126, 58),rgb(255, 102, 0));
     border-radius: 50%;
 
     position: absolute;
     left: 35%;
     top: 79%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
   }
 
   .bottle {
       width: 15vw;
       height: 24vw;
-      border-radius: 10px;
-      background-image: linear-gradient(to right, white, rgb(142, 141, 141));
+      border-top-left-radius: 4vw;
+      border-top-right-radius: 4vw;
+      border-bottom-left-radius: 1vw;
+      border-bottom-right-radius: 1vw;
+      background-image: radial-gradient(circle at 40% 20%, white 0.5%,rgb(217, 217, 217,0));
 
 
       position: absolute;
       right: 16%;
       top: 49%;
       opacity: 80%;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
 
 .bottle-neck{
   width: 7.5vw;
   height: 9vw;
-  background-image: linear-gradient(to right, white, rgb(142, 141, 141));
+  background-image: radial-gradient(circle at 40% 90%, white 0.5%,rgb(217, 217, 217,0));
 
   position: absolute;
   right: 20%;
   top: 33.3%;
   opacity: 60%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
 
 .cork {
