@@ -1,0 +1,124 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: rgb(255, 148, 148);
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.globe {
+  width: 20vw;
+  height: 20vw;
+  background-image: radial-gradient(circle at 70% 20%, white 0.2%, rgb(147, 146, 146));
+  border-radius: 50%;
+
+  position: absolute;
+  left: 20%;
+  top: 55%;
+}
+
+.orange1 {
+    width: 8vw;
+    height: 8vw;
+    background-image: radial-gradient(circle at 25% 40%, white 0.5%, rgb(216, 88, 3));
+    border-radius: 50%;
+
+    position: absolute;
+    left: 55%;
+    top: 7%;
+  }
+
+  .orange2 {
+    width: 8vw;
+    height: 8vw;
+    background-image: radial-gradient(circle at 25% 40%, white 0.5%, rgb(216, 88, 3));
+    border-radius: 50%;
+
+    position: absolute;
+    left: 35%;
+    top: 79%;
+  }
+
+  .bottle {
+      width: 15vw;
+      height: 24vw;
+      border-radius: 10px;
+      background-image: linear-gradient(to right, white, rgb(142, 141, 141));
+
+
+      position: absolute;
+      right: 16%;
+      top: 49%;
+      opacity: 80%;
+}
+
+.bottle-neck{
+  width: 7.5vw;
+  height: 9vw;
+  background-image: linear-gradient(to right, white, rgb(142, 141, 141));
+
+  position: absolute;
+  right: 20%;
+  top: 33.3%;
+  opacity: 60%;
+}
+
+.cork {
+  border-bottom: 6vw solid rgb(195, 110, 31); 
+  border-left: 1vw solid transparent; 
+  border-right: 1vw solid transparent;
+  height: 0;
+  width: 6vw; 
+  transform: rotate(180deg);
+
+  position: absolute;
+  right: 19.8%;
+  top: 30%;
+}
+.computer{
+  width: 24.5vw;
+  height: 29vw;
+  background-image: radial-gradient(circle at 30% 30%, white 2%, rgb(163, 163, 163));
+
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  border-radius: 10px;
+}
+
+.keyboard{
+  border-bottom: 7vw solid rgb(141, 141, 141);
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  height: 0;
+  width: 32vw;
+
+  position: absolute;
+  left: 34%;
+  top: 70%;
+}
+
+.screen{
+  width: 22vw;
+  height: 22vw;
+  background-image: radial-gradient(circle at 30% 30%, rgb(99, 99, 99) 2%, rgb(0, 0, 0));
+  border-radius: 10px;
+
+  position: absolute;
+  left: 41.5%;
+  top: 22%;
+}
