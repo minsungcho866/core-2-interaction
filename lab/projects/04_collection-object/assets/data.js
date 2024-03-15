@@ -20,4 +20,9 @@ var data = [
         item: 'Philadelphia Roll, Soda, Tricolor Cuchi Dinner',
         price: 38.54,
     },
+    {
+        location: 'Hawaiian BBQ',
+        item: 'BBQ Mix Box, Kara-age',
+        price: 32.06,
+    },
 ];
