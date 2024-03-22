@@ -127,3 +127,31 @@ var data = [
         price: 12.81,
     },
 ];
+
+
+
+function displayData() {
+    var container = document.createElement('div'); 
+    container.style.display = 'flex'; 
+    container.style.flexWrap = 'wrap'; 
+    container.style.justifyContent = 'space-around'; 
+    container.style.margin = '20px'; 
+    
+    data.forEach(function(item) {
+        var itemDiv = document.createElement('div'); 
+        itemDiv.innerHTML = `<p><strong>Location:</strong> ${item.location}</p>
+                             <p><strong>Item:</strong> ${item.item}</p>
+                             <p><strong>Price:</strong> $${item.price.toFixed(2)}</p>`; 
+        itemDiv.style.backgroundColor = '#808000'; 
+        itemDiv.style.padding = '10px'; 
+        itemDiv.style.margin = '10px'; 
+        itemDiv.style.width = '200px'; 
+        container.appendChild(itemDiv); 
+    });
+
+    document.body.appendChild(container); 
+}
+
+
+displayData();
+
