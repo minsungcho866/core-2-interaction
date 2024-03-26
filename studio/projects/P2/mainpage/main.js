@@ -71,6 +71,11 @@ document.getElementById('low').addEventListener("click", function() {
 
 var data = [
     {
+        location: 'Dim Sum Sam',
+        item: 'Crispy Pork Belly Rice, Pork Belly Sandwich',
+        price: 21.77,
+    },
+    {
         location: 'H MART',
         item: 'Asian grocery, bag',
         price: 12.53,
@@ -114,11 +119,6 @@ var data = [
         location: 'And Pizza',
         item: 'Dirty Birdless',
         price: 23.21,
-    },
-    {
-        location: 'Dim Sum Sam',
-        item: 'Crispy Pork Belly Rice, Pork Belly Sandwich',
-        price: 21.77,
     },
     {
         location: 'Panda Express',
