@@ -5,10 +5,27 @@ HTML {
 }
 
 H1 {
+    position: relative;
     text-align: center;
-        font-size: 9vw;
+    font-size: 9vw;
     margin-top: 0;
     color: rgb(0, 0, 0);
+    margin-bottom: 0;
+
+
+    font-family: "veneer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+H2 {
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    line-height: 0px;
 
     font-family: "veneer", sans-serif;
     font-weight: 400;
@@ -39,38 +56,55 @@ H1 {
     top: 11vw;
     left: 3vw;
     font-size: 2vw;
+    weight: 9px;
+    height: 9px;
 
     font-family: "typeka", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.checkbox input[type="checkbox"] {
-    transform: scale(2);
+.highname {
+    color: red;
+    text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
 }
+
+.mediumname {
+    color: orange;
+    text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
+
+}
+
+.lowname {
+    color: rgb(255, 255, 0);
+    text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
+}
+
+  
+
 
 .onedollar {
     position: fixed;
-    top: 14.8vw;
-    left: 13.3vw;
-    width: 3.8vw;
-    height: 4.3vw;
+    top: 15.6vw;
+    left: 13vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 .twodollar {
     position: fixed;
-    top: 12.4vw;
+    top: 13.2vw;
     left: 13vw;
-    width: 3.8vw;
-    height: 4.3vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 .threedollar {
     position: fixed;
-    top: 10vw;
+    top: 10.7vw;
     left: 13vw;
-    width: 3.8vw;
-    height: 4.3vw;
+    width: 3vw;
+    height: 3vw;
 }
 
 /* one dollar */
@@ -78,7 +112,7 @@ H1 {
 
 .onedollar1 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 30vw;
     left: 34vw;    
@@ -90,7 +124,7 @@ transform: translateY(-2.5px);
 
 .onedollar2 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 25vw;
     left: 38vw;    
@@ -102,7 +136,7 @@ transform: translateY(-2.5px);
 
 .onedollar3 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 24vw;
     left: 32vw;    
@@ -114,7 +148,7 @@ transform: translateY(-2.5px);
 
 .onedollar4 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 19vw;
     left: 40vw;    
@@ -126,7 +160,7 @@ transform: translateY(-2.5px);
 
 .onedollar5 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 23vw;
     left: 45vw;    
@@ -138,7 +172,7 @@ transform: translateY(-2.5px);
 
 .onedollar6 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 22vw;
     left: 32vw;    
@@ -150,7 +184,7 @@ transform: translateY(-2.5px);
 
 .onedollar7 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 18vw;
     left: 35vw;    
@@ -162,7 +196,7 @@ transform: translateY(-2.5px);
 
 .onedollar8 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 18vw;
     left: 45vw;    
@@ -176,7 +210,7 @@ transform: translateY(-2.5px);
 
 .twodollar1 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 15vw;
     left: 38vw;    
@@ -188,7 +222,7 @@ transform: translateY(-2.5px);
 
 .twodollar2 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 18vw;
     left: 41vw;    
@@ -200,7 +234,7 @@ transform: translateY(-2.5px);
 
 .twodollar3 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 32vw;
     left: 39vw;    
@@ -212,7 +246,7 @@ transform: translateY(-2.5px);
 
 .twodollar4 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 40vw;
     left: 41vw;    
@@ -224,7 +258,7 @@ transform: translateY(-2.5px);
 
 .twodollar5 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 37vw;
     left: 33vw;    
@@ -236,7 +270,7 @@ transform: translateY(-2.5px);
 
 .twodollar6 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 29vw;
     left: 32vw;    
@@ -248,7 +282,7 @@ transform: translateY(-2.5px);
 
 .twodollar7 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 18vw;
     left: 50vw;    
@@ -260,7 +294,7 @@ transform: translateY(-2.5px);
 
 .twodollar8 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 28vw;
     left: 40vw;    
@@ -275,7 +309,7 @@ transform: translateY(-2.5px);
 
 .threedollar1 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 20vw;
     left: 38vw;    
@@ -287,7 +321,7 @@ transform: translateY(-2.5px);
 
 .threedollar2 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 26vw;
     left: 41vw;    
@@ -299,7 +333,7 @@ transform: translateY(-2.5px);
 
 .threedollar3 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 23vw;
     left: 39vw;    
@@ -311,7 +345,7 @@ transform: translateY(-2.5px);
 
 .threedollar4 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 20vw;
     left: 46vw;    
@@ -324,7 +358,7 @@ transform: translateY(-2.5px);
 
 .threedollar5 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 45vw;
     left: 38vw;    
@@ -336,7 +370,7 @@ transform: translateY(-2.5px);
 
 .threedollar6 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 28vw;
     left: 36vw;    
@@ -349,7 +383,7 @@ transform: translateY(-2.5px);
 
 .threedollar7 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 22vw;
     left: 36vw;    
@@ -361,7 +395,7 @@ transform: translateY(-2.5px);
 
 .threedollar8 {
     position: absolute;
-    width: 3.8vw;
+    width: 4vw;
     height: 4.3vw;
     top: 43vw;
     left: 32vw;    
@@ -370,5 +404,6 @@ transform: translateY(-2.5px);
 .threedollar8:hover {
 transform: translateY(-2.5px); 
 }
+
 
 
