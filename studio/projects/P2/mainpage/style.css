@@ -1,7 +1,460 @@
+@media only screen and (max-width: 600px){
+    HTML {
+        background-image: url(img/map2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -100vw; 
+        background-attachment: fixed;
+    }
+    
+    h1{
+        position: relative;
+        text-align: center;
+        font-size: 15vw;
+        margin-top: 0;
+        color: rgb(0, 0, 0);
+        margin-bottom: 0;
+    
+    
+        font-family: "veneer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    H2 {
+        position: relative;
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 0;
+        color: rgb(0, 0, 0);
+        margin-top: 0;
+        line-height: 0px;
+    
+        font-family: "veneer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .box{
+        width: 40vw;
+        height: 20vw;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        background-color: white;
+        position: fixed;
+        top: 26vw;
+        left: 3vw;
+    }
+    
+    .text{
+        font-size: 3vw;
+        position: fixed;
+        top: 11vw;
+        left: 7vw;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .checkbox {
+        position: fixed;
+        top: 27vw;
+        left: 3vw;
+        font-size: 4.7vw;
+        height: 9px;
+    
+        font-family: "typeka", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .highname {
+        color: red;
+        text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
+    }
+    
+    .mediumname {
+        color: orange;
+        text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
+    
+    }
+    
+    .lowname {
+        color: rgb(255, 255, 0);
+        text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
+    }
+    
+    input:checked {
+        background-color: 2px solid yellow;
+    }
+    
+    
+    .onedollar {
+        position: fixed;
+        top: 37.8vw;
+        left: 35vw;
+        width: 7vw;
+        height: 7vw;
+    }
+    
+    .twodollar {
+        position: fixed;
+        top: 31.8vw;
+        left: 35vw;
+        width: 7vw;
+        height: 7vw;
+    }
+    
+    .threedollar {
+        position: fixed;
+        top: 25.8vw;
+        left: 35vw;
+        width: 7vw;
+        height: 7vw;
+    }
+
+/* --------------------------------------------- */
+.location {
+    position: fixed;
+  }
+  
+
+  
+  .tooltip {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    display: none;
+    cursor: pointer;
+    z-index: -1;
+  }
+  
+  .marker:hover + .tooltip {
+    display: block;
+  }
+  
+  
+
+/* one dollar */
+/* ------------------------------------------ */
+
+.onedollar1 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 150vw;
+    left: 34vw;    
+}
+
+.onedollar1:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar2 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 130vw;
+    left: 34vw;   
+}
+
+.onedollar2:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar3 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 110vw;
+    left: 32vw;   
+}
+
+.onedollar3:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar4 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 90vw;
+    left: 40vw;   
+}
+
+.onedollar4:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar5 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 90vw;
+    left: 40vw;   
+}
+
+.onedollar5:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar6 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 70vw;
+    left: 40vw;    
+}
+
+.onedollar6:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar7 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 80vw;
+    left: 60vw;    
+}
+
+.onedollar7:hover {
+transform: translateY(-2.5px); 
+}
+
+.onedollar8 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 120vw;
+    left: 60vw;  
+
+.onedollar8:hover {
+transform: translateY(-2.5px); 
+}
+}
+/* two dollar */
+/* ------------------------------------------ */
+
+.twodollar1 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 100vw;
+    left: 40vw;  
+}
+
+.twodollar1:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar2 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 70vw;
+    left: 30vw;  
+}
+
+.twodollar2:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar3 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 60vw;
+    left: 60vw;    
+}
+
+.twodollar3:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar4 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 130vw;
+    left: 70vw;    
+}
+
+.twodollar4:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar5 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 70vw;
+    left: 70vw;     
+}
+
+.twodollar5:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar6 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 80vw;
+    left: 90vw;   
+}
+
+.twodollar6:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar7 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 70vw;
+    left: 30vw;    
+}
+
+.twodollar7:hover {
+transform: translateY(-2.5px); 
+}
+
+.twodollar8 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 120vw;
+    left: 30vw;  
+}
+
+.twodollar8:hover {
+transform: translateY(-2.5px); 
+}
+
+/* three dollar */
+/* ------------------------------------------ */
+
+.threedollar1 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 130vw;
+    left: 44vw;  
+}
+
+.threedollar1:hover {
+transform: translateY(-2.5px); 
+}
+
+.threedollar2 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 126vw;
+    left: 41vw;    
+}
+
+.threedollar2:hover {
+transform: translateY(-2.5px); 
+}
+
+.threedollar3 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 123vw;
+    left: 39vw;    
+}
+
+.threedollar3:hover {
+transform: translateY(-2.5px); 
+}
+
+.threedollar4 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 120vw;
+    left: 46vw;    
+}
+
+.threedollar4:hover {
+transform: translateY(-2.5px); 
+}
+
+
+.threedollar5 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 145vw;
+    left: 38vw;    
+}
+
+.threedollar5:hover {
+transform: translateY(-2.5px); 
+}
+
+.threedollar6 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 128vw;
+    left: 36vw;    
+}
+
+.threedollar6:hover {
+transform: translateY(-2.5px); 
+}
+
+
+.threedollar7 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 122vw;
+    left: 36vw;    
+}
+
+.threedollar7:hover {
+transform: translateY(-2.5px); 
+}
+
+.threedollar8 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 80vw;
+    left: 32vw;    
+}
+
+.threedollar8:hover {
+transform: translateY(-2.5px); 
+}
+
+.threedollar9 {
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    top: 52vw;
+    left: 63vw;    
+}
+
+.threedollar8:hover {
+transform: translateY(-2.5px); 
+}
+}
+
+@media only screen and (min-width: 601px){
 HTML {
     background-image: url(img/map2.png);
     background-size: 115vw;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
 }
 
 H1 {
@@ -80,7 +533,9 @@ H2 {
     text-shadow: 0.08vw 0.08vw rgb(2, 2, 2);
 }
 
-  
+input:checked {
+    background-color: 2px solid yellow;
+}
 
 
 .onedollar {
@@ -106,6 +561,32 @@ H2 {
     width: 3vw;
     height: 3vw;
 }
+
+/* ------------------------------------------ */
+
+.location {
+    position: fixed;
+  }
+  
+
+  
+  .tooltip {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    display: none;
+    cursor: pointer;
+    z-index: -1;
+  }
+  
+  .marker:hover + .tooltip {
+    display: block;
+  }
+  
+  
 
 /* one dollar */
 /* ------------------------------------------ */
@@ -405,5 +886,16 @@ transform: translateY(-2.5px);
 transform: translateY(-2.5px); 
 }
 
+.threedollar9 {
+    position: absolute;
+    width: 4vw;
+    height: 4.3vw;
+    top: 42vw;
+    left: 33vw;    
+}
 
+.threedollar8:hover {
+transform: translateY(-2.5px); 
+}
 
+}
