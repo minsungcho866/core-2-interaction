@@ -1,0 +1,12 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 90vmin;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+
+    background-color: rgb(23, 23, 23);
+}
