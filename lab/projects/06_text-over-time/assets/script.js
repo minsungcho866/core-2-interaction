@@ -18,7 +18,7 @@ function render(data) {
     var infoElement = document.querySelector('.Info');
 
     infoElement.innerHTML = `
-        <p>Temp: ${ data.main.temp }F</p>
+        <p>TEMPERATURE: ${ data.main.temp }F</p>
     `;
 
     containerElement.style.background = `hsl(${ data.main.temp }, 100%, 50%)`;

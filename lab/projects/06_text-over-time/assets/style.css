@@ -9,14 +9,12 @@
 
 .Info {
 	position: absolute;
-	top: 0;
-	left: 0;
 	padding: 10px;
-    font-size: 17vw;
+    font-size: 12vw;
     text-align: center;
 
-    font-family: "arek", serif;
-    font-weight: 400;
+    font-family: "poleno", sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
 
