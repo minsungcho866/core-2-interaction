@@ -1,0 +1,65 @@
+html{
+ border: 2px black solid;
+ display: block;
+}
+
+h1{
+    font-size: 12vw;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+hr{
+    margin-top: 0;
+}
+
+.trainimage{
+    width: 95vw;
+    height: 70vw;
+    border-radius: 2vw;
+}
+
+h2 {
+    font-size: 6vw;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800; 
+}
+video{
+    width: 60vw;
+    height: 40vw;
+}
+
+.imgtwo{
+    align-items: right;
+}
+
+.texttwo{
+    position: absolute;
+    right: 2vw;
+    margin-top: -38vw;
+    max-width: 35vw;
+}
+
+.poster{
+text-align: right;
+}
+
+.imgthree{
+    width: 60vw;
+    height: 40vw;
+    position: relative;
+    right: -19vw;
+}
+
+.textthree{
+    position: absolute;
+    left: 2vw;
+    margin-top: -41vw;
+    max-width: 35vw;  
+}

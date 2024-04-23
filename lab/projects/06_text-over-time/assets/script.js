@@ -23,6 +23,7 @@ function render(data) {
 
     containerElement.style.background = `hsl(${ data.main.temp }, 100%, 50%)`;
 
+    
     console.log(data);
 }
 
