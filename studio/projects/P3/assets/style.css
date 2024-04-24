@@ -14,6 +14,8 @@ h1{
 
 hr{
     margin-top: 0;
+    size: 2px;
+    width: 100vw;
 }
 
 .trainimage{
@@ -63,3 +65,4 @@ text-align: right;
     margin-top: -41vw;
     max-width: 35vw;  
 }
+
