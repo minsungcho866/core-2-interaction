@@ -1,15 +1,26 @@
 html{
- border: 2px black solid;
- display: block;
+margin: 0;
+padding: 0%;
 }
+
 
 h1{
     font-size: 12vw;
     margin-bottom: 0;
     margin-top: 0;
-
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
+}
+
+.title{
+    width: 50vw;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    position: relative;
+    top: 7.5vw;
+    mix-blend-mode: darken;
 }
 
 hr{
@@ -19,19 +30,56 @@ hr{
 }
 
 .trainimage{
-    width: 95vw;
-    height: 70vw;
-    border-radius: 2vw;
+width: 100vw;
+border-radius: 2vw;
+
+
+
+    margin: 0;
+    padding: 0;
 }
+
+.firsttext {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.titletwo{
+    position: relative;
+
+    top: 20vw;
+    width: 80vw;
+    height: auto;
+
+    }
+
+.texttwo{
+    top: 148vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    max-width: 50vw;
+}
+
+
+
+.subtitlethree{
+position: relative;
+top: -10vw;
+
+width: 80vw;
+height: auto;
+}
+
 
 h2 {
     font-size: 6vw;
     margin-bottom: 0;
     margin-top: 0;
-
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800; 
 }
+
 video{
     width: 60vw;
     height: 40vw;
@@ -40,16 +88,8 @@ video{
 .imgtwo{
     align-items: right;
 }
-
-.texttwo{
-    position: absolute;
-    right: 2vw;
-    margin-top: -38vw;
-    max-width: 35vw;
-}
-
 .poster{
-text-align: right;
+    text-align: right;
 }
 
 .imgthree{
@@ -57,12 +97,19 @@ text-align: right;
     height: 40vw;
     position: relative;
     right: -19vw;
+    top: -13vw;
+
 }
 
 .textthree{
-    position: absolute;
-    left: 2vw;
+    right: -40vw;
     margin-top: -41vw;
-    max-width: 35vw;  
+    max-width: 50vw;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    position: relative;
+    top: 14vw;
 }
+
 

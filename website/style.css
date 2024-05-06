@@ -1,0 +1,29 @@
+html {
+    display: flex;
+    color: white; 
+    background-color: grey;  
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.studio_studio .lab_lab{
+flex-direction: column;
+}
+
+.studio_studio {
+    background-color: blue;
+    max-width: 30vw;
+    max-height: 45vw;
+    text-align: center;
+    border-radius: 2vw;
+    border: white solid;
+}
+
+.lab_lab {
+    background-color: green;
+    border-radius: 2vw;
+    border: white solid;
+}
+
