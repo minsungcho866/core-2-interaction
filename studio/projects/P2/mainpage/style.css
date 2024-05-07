@@ -1,9 +1,9 @@
 @media only screen and (max-width: 600px){
-    HTML {
+    body {
         background-image: url(img/map2.png);
-        background-size: cover;
+        background-size: 375vw;
         background-repeat: no-repeat;
-        background-position: -100vw; 
+        background-position: -74vw; 
         background-attachment: fixed;
     }
     
@@ -120,14 +120,19 @@
   
   .tooltip {
     position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    left: 55vw;
+    bottom: 21vw;
+    width: 30%;
     padding: 10px;
-    background: rgb(255, 255, 255);
+    background-image: url(img/paper.jpeg);
+    background-size: cover;
     display: none;
     cursor: pointer;
     z-index: -1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+    font-family: "veneer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .marker:hover + .tooltip {
@@ -576,7 +581,8 @@ input:checked {
     bottom: 21vw;
     width: 20%;
     padding: 10px;
-    background: rgb(255, 255, 255);
+    background-image: url(img/paper.jpeg);
+    background-size: cover;
     display: none;
     cursor: pointer;
     z-index: -1;
