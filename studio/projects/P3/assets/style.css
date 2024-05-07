@@ -112,4 +112,20 @@ video{
     top: 14vw;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30.25%; /* 16:9 aspect ratio */
+    border: none; 
+
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100%;
+    border: none; 
+  }
 
