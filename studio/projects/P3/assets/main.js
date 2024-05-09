@@ -20,7 +20,7 @@ function render(data) {
     console.log(data);
 
     var frame = Math.floor(data.main.temp);
-    var imageSource = `imgs/title/title_000${ frame }.jpg`;
+    var imageSource = `imgs/title/title_000${ frame }.png`;
     document.querySelector('.title').src = imageSource;
 
     var frame = Math.floor(data.main.temp);

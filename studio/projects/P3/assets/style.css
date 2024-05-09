@@ -13,14 +13,15 @@ h1{
 }
 
 .title{
-    width: 50vw;
+    width: 100vw;
     height: auto;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 0%;
 
-    position: relative;
-    top: 7.5vw;
-    mix-blend-mode: darken;
+    height: 41vw; 
+    object-fit: cover;
+
 }
 
 hr{
@@ -37,6 +38,9 @@ border-radius: 2vw;
 
     margin: 0;
     padding: 0;
+
+    height: 56vw; 
+    object-fit: cover;
 }
 
 .firsttext {
@@ -47,18 +51,20 @@ border-radius: 2vw;
 
 .titletwo{
     position: relative;
-
-    top: 20vw;
-    width: 80vw;
+    right: -25vw;
+    width: 75vw;
     height: auto;
 
     }
 
 .texttwo{
-    top: 148vw;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    max-width: 50vw;
+    max-width: 45vw;
+
+    position: relative;
+    right: -52vw;
+    top: -29vw;
 }
 
 
@@ -85,31 +91,27 @@ video{
     height: 40vw;
 }
 
-.imgtwo{
-    align-items: right;
-}
-.poster{
-    text-align: right;
-}
+
 
 .imgthree{
     width: 60vw;
     height: 40vw;
     position: relative;
     right: -19vw;
-    top: -13vw;
+    top: -15vw;
 
 }
 
 .textthree{
-    right: -40vw;
+
     margin-top: -41vw;
-    max-width: 50vw;  
+    max-width: 37vw;  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 
     position: relative;
-    top: 14vw;
+    top: -22vw;
+    margin-left: 10px;
 }
 
 .video-container {
@@ -129,3 +131,63 @@ video{
     border: none; 
   }
 
+  @media screen and (max-width: 600px){
+    .imgthree{
+        width: 90vw;
+        height: auto;
+        position: relative;
+        right: -2vw;
+        top: -11.5vw;
+    
+    }
+    
+    .textthree{
+    
+    
+        max-width: 100vw;  
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    
+        position: relative;
+        top: 16vw;
+        margin-left: 10px;
+    }
+
+    .titletwo{
+        position: relative;
+        right: 1vw;
+        width: 75vw;
+        height: auto;
+    
+        }
+    
+    .texttwo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        max-width: 100vw;  
+
+    
+        position: relative;
+        top: 0vw;
+        right: -2vw;
+ 
+    }
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 230.2px; /* 16:9 aspect ratio */
+        border: none; 
+    
+      }
+      
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 95vw;
+        height: 100%;
+        border: none; 
+      }
+    
+}
